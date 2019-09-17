@@ -40,13 +40,14 @@ CLUSTERPRO X の詳細については、[こちら](https://jpn.nec.com/clusterp
    - Linuxの場合
      - ミラーディスクコネクトモニタリソース
      - ミラーディスクモニタリソース
-     - Azure プローブポートモニタリソース
-     - Azure ロードバランスモニタリソース
+     - Azure プローブポートモニタリソース (★)
+     - Azure ロードバランスモニタリソース (★)
    - Windowsの場合
      - ミラーコネクト監視リソース
      - ミラーディスク監視リソース
-     - Azure プローブポート監視リソース
-     - Azure ロードバランス監視リソース
+     - Azure プローブポート監視リソース (★)
+     - Azure ロードバランス監視リソース (★)
+- (★) Azure向けのCLUSTERPROのリソースを使用しOracle Cloudのクラスタ構成を構築しています。
 
 Oracle Cloud の設定
 ---
@@ -92,7 +93,8 @@ Oracle Cloud の設定
 
 CLUSTERPRO のインストールと設定
 ---
-※記載がない値は既定値を設定している
+CLUSTERPROのインストール方法については 『CLUSTERPRO インストール＆設定ガイド』 をご確認ください。   
+また、下記に記載がない値については既定値を設定しています。   
 
 1. ミラーディスク用のパーティションを作成
    - Linuxの場合
@@ -153,6 +155,10 @@ CLUSTERPRO の動作確認
 
 参考
 ---
+- CLUSTERPRO X 4.1 インストール＆設定ガイド(Linux版)
+   - https://jpn.nec.com/clusterpro/clpx/doc/manual/x41/L41_IG_JP_01.pdf
+- CLUSTERPRO X 4.1 インストール＆設定ガイド(Windows版)
+   - https://jpn.nec.com/clusterpro/clpx/doc/manual/x41/W41_IG_JP_01.pdf
 - CLUSTERPRO X 4.1 Microsoft Azure 向け HA クラスタ 構築ガイド (Linux 版)
    - https://jpn.nec.com/clusterpro/clpx/doc/guide/HOWTO_Azure_X41_Linux_JP_01.pdf
 - CLUSTERPRO X 4.1 Microsoft Azure 向け HA クラスタ 構築ガイド (Windows 版)
