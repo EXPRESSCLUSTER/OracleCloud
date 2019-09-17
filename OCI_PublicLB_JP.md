@@ -94,7 +94,7 @@ Oracle Cloud の設定
 
 CLUSTERPRO のインストールと設定
 ---
-CLUSTERPROのインストール方法については 『CLUSTERPRO インストール＆設定ガイド』 をご確認ください。      
+CLUSTERPROのインストール方法については [『CLUSTERPRO インストール＆設定ガイド』](https://github.com/EXPRESSCLUSTER/OracleCloud/blob/master/OCI_PublicLB_JP.md#%E5%8F%82%E8%80%83) をご確認ください。      
 また、下記に記載がない値については既定値を設定しています。   
 
 1. ミラーディスク用のパーティションを作成
